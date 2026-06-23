@@ -7,7 +7,7 @@
 Building thoughtful software that solves real-world problems.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?logo=linkedin&logoColor=white)](https://linkedin.com/in/saatvikss)
-[![Portfolio](https://img.shields.io/badge/Portfolio-000000?logo=vercel&logoColor=white)](https://qryptics-website.vercel.app)
+[![Qryptics](https://img.shields.io/badge/Portfolio-000000?logo=vercel&logoColor=white)](https://qryptics-website.vercel.app)
 [![Email](https://img.shields.io/badge/Email-Contact-informational?logo=gmail)](mailto:your-email@example.com)
 
 </div>
