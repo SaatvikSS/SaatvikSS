@@ -13,7 +13,7 @@ Building thoughtful software that solves real-world problems.
 </a>
 
 <a href="https://qryptics-website.vercel.app">
-<img src="https://img.shields.io/badge/Portfolio-000000?style=flat-square&logo=vercel&logoColor=white"/>
+<img src="https://img.shields.io/badge/Qryptics-000000?style=flat-square&logo=vercel&logoColor=white"/>
 </a>
 
 <a href="mailto:your-email@example.com">
