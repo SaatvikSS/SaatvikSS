@@ -6,9 +6,21 @@
 
 Building thoughtful software that solves real-world problems.
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?logo=linkedin&logoColor=white)](https://linkedin.com/in/saatvikss)
-[![Qryptics](https://img.shields.io/badge/Portfolio-000000?logo=vercel&logoColor=white)](https://qryptics-website.vercel.app)
-[![Email](https://img.shields.io/badge/Email-Contact-informational?logo=gmail)](mailto:your-email@example.com)
+<p>
+
+<a href="https://linkedin.com/in/saatvikss">
+<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white"/>
+</a>
+
+<a href="https://qryptics-website.vercel.app">
+<img src="https://img.shields.io/badge/Portfolio-000000?style=flat-square&logo=vercel&logoColor=white"/>
+</a>
+
+<a href="mailto:your-email@example.com">
+<img src="https://img.shields.io/badge/Email-Contact-informational?style=flat-square&logo=gmail"/>
+</a>
+
+</p>
 
 </div>
 
@@ -16,75 +28,84 @@ Building thoughtful software that solves real-world problems.
 
 ## About
 
-I'm a software engineer passionate about building products at the intersection of **mobile**, **AI**, and **backend systems**.
+I'm a software engineer passionate about creating elegant software experiences across **iOS**, **Artificial Intelligence**, and **Backend Systems**.
 
-My work ranges from native iOS applications with SwiftUI to scalable backend services and applied machine learning. I enjoy taking products from an idea to a polished experience with a strong emphasis on simplicity, performance, and thoughtful design.
-
----
-
-## Currently Building
-
-- 📱 **Tattva** — A beautifully crafted iOS application for spiritual learning.
-- 🔐 **Qryptics** — Enterprise-grade post-quantum tokenization platform.
-- 🌱 **GreenRoute** — AI-powered logistics emissions platform.
-- 🤖 Exploring on-device AI experiences using Apple's ecosystem.
+I enjoy building products from concept to production with a strong emphasis on **simplicity**, **performance**, and **craftsmanship**.
 
 ---
 
-## Featured Projects
+# Currently Building
 
-| Project | Description |
-|---------|-------------|
-| 🔐 **Qryptics** | Post-Quantum Enterprise Tokenization Platform |
-| 📱 **Tattva** | Native SwiftUI application for Bhagavad Gita audio & learning |
-| 🌱 **GreenRoute** | AI-powered logistics emissions tracking platform |
-| 🥗 **NutriScan** | Food intelligence using computer vision & machine learning |
-| 📊 **API Monitoring System** | ML-powered observability and anomaly detection platform |
+- 📱 **Tattva** — Native SwiftUI application for spiritual learning
+- 🔐 **Qryptics** — Enterprise-grade post-quantum tokenization platform
+- 🌱 **GreenRoute** — AI-powered logistics emissions platform
+- 🤖 Exploring on-device AI with Apple's ecosystem
 
 ---
 
-## Technologies
+# Featured Projects
 
-**Languages**
+| Project | Description | Stack |
+|---------|-------------|------|
+| 🔐 **Qryptics** | Enterprise post-quantum tokenization platform | Python · Redis · AES-GCM |
+| 📱 **Tattva** | Beautiful native Bhagavad Gita experience | SwiftUI · AVFoundation |
+| 🌱 **GreenRoute** | AI-powered logistics emissions tracker | Python · ML · Cloud |
+| 🥗 **NutriScan** | Food intelligence with computer vision | Swift · Vision · CoreML |
+| 📊 **API Monitoring System** | Machine-learning observability platform | FastAPI · OpenTelemetry |
+
+---
+
+# Technologies
+
+### Languages
 
 `Swift` • `Python` • `TypeScript` • `JavaScript` • `C++` • `SQL`
 
-**Frameworks**
+### Frameworks
 
-`SwiftUI` • `React` • `Next.js` • `FastAPI` • `Node.js`
+`SwiftUI` • `React` • `Next.js` • `Node.js` • `FastAPI`
 
-**Cloud & Infrastructure**
+### Infrastructure
 
-`Google Cloud` • `Redis` • `MongoDB` • `MySQL` • `Docker` • `GitHub Actions`
+`Google Cloud` • `Docker` • `Redis` • `MongoDB` • `MySQL` • `GitHub Actions`
 
 ---
 
-## GitHub
+# GitHub
 
 <p align="center">
-
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=SaatvikSS&show_icons=true&theme=transparent&hide_border=true&rank_icon=github" />
-
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SaatvikSS&layout=compact&theme=transparent&hide_border=true"/>
-
-</p>
-
-<p align="center">
-
-<img src="https://streak-stats.demolab.com?user=SaatvikSS&theme=transparent&hide_border=true"/>
-
+<img src="https://raw.githubusercontent.com/SaatvikSS/SaatvikSS/main/github-metrics.svg" width="92%">
 </p>
 
 ---
 
-## Activity
+# Activity
 
-[![Contribution Graph](https://github-readme-activity-graph.vercel.app/graph?username=SaatvikSS&theme=github-dark&hide_border=true)](https://github.com/SaatvikSS)
+<p align="center">
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=SaatvikSS&theme=github-dark&hide_border=true&radius=10" width="100%">
+
+</p>
 
 ---
 
-## Philosophy
+# Current Focus
 
-> Simplicity is difficult. Good software should feel effortless to use while hiding immense engineering complexity beneath the surface.
+- 🍎 Native iOS Development
+- 🤖 Artificial Intelligence
+- 🔐 Security & Applied Cryptography
+- ☁️ Distributed Backend Systems
+- ✨ Human-centered Product Design
 
+---
+
+# Philosophy
+
+> *"Great software isn't measured by the complexity behind it, but by the simplicity users experience."*
+
+<div align="center">
+
+### Thanks for stopping by!
+
+</div>
 
