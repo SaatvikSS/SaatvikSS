@@ -16,7 +16,7 @@ Building thoughtful software that solves real-world problems.
 <img src="https://img.shields.io/badge/Qryptics-000000?style=flat-square&logo=vercel&logoColor=white"/>
 </a>
 
-<a href="mailto:your-email@example.com">
+<a href="saatvikshashankshrivastava@egmail.com">
 <img src="https://img.shields.io/badge/Email-Contact-informational?style=flat-square&logo=gmail"/>
 </a>
 
