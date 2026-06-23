@@ -18,72 +18,73 @@ jobs:
       contents: write
 
     steps:
-      - uses: lowlighter/metrics@latest
+      - name: Generate GitHub Metrics
+        uses: lowlighter/metrics@master
+
         with:
-  token: ${{ secrets.METRICS_TOKEN }}
+          token: ${{ secrets.METRICS_TOKEN }}
 
-  ####################################
-  # User
-  ####################################
-  user: SaatvikSS
-  filename: github-metrics.svg
+          ####################################
+          # User
+          ####################################
+          user: SaatvikSS
+          filename: github-metrics.svg
 
-  ####################################
-  # Apple-style Layout
-  ####################################
-  template: classic
-  base: header, activity
+          ####################################
+          # Apple-style Layout
+          ####################################
+          template: classic
+          base: header, activity
 
-  config_timezone: Asia/Kolkata
-  config_display: large
-  config_animations: yes
-  config_padding: 0
+          config_timezone: Asia/Kolkata
+          config_display: large
+          config_animations: yes
+          config_padding: 0
 
-  ####################################
-  # Introduction
-  ####################################
-  plugin_introduction: yes
-  plugin_introduction_title: yes
+          ####################################
+          # Introduction
+          ####################################
+          plugin_introduction: yes
+          plugin_introduction_title: yes
 
-  ####################################
-  # Contribution Calendar
-  ####################################
-  plugin_isocalendar: yes
+          ####################################
+          # Contribution Calendar
+          ####################################
+          plugin_isocalendar: yes
 
-  ####################################
-  # Languages
-  ####################################
-  plugin_languages: yes
-  plugin_languages_limit: 8
-  plugin_languages_sections: most-used
-  plugin_languages_indepth: yes
-  plugin_languages_analysis_timeout: 15
-  plugin_languages_recent_categories: markup, programming
-  plugin_languages_recent_load: 300
-  plugin_languages_recent_days: 365
+          ####################################
+          # Languages
+          ####################################
+          plugin_languages: yes
+          plugin_languages_limit: 8
+          plugin_languages_sections: most-used
+          plugin_languages_indepth: yes
+          plugin_languages_analysis_timeout: 15
+          plugin_languages_recent_categories: markup, programming
+          plugin_languages_recent_load: 300
+          plugin_languages_recent_days: 365
 
-  ####################################
-  # Lines of Code
-  ####################################
-  plugin_lines: yes
+          ####################################
+          # Lines of Code
+          ####################################
+          plugin_lines: yes
 
-  ####################################
-  # Pull Requests & Contributions
-  ####################################
-  plugin_followup: yes
-  plugin_followup_sections: repositories
+          ####################################
+          # Pull Requests & Contributions
+          ####################################
+          plugin_followup: yes
+          plugin_followup_sections: repositories
 
-  ####################################
-  # Coding Habits
-  ####################################
-  plugin_habits: yes
-  plugin_habits_days: 14
-  plugin_habits_charts: yes
-  plugin_habits_from: 100
+          ####################################
+          # Coding Habits
+          ####################################
+          plugin_habits: yes
+          plugin_habits_days: 14
+          plugin_habits_charts: yes
+          plugin_habits_from: 100
 
-  ####################################
-  # Error Reporting
-  ####################################
-  plugin_errors: yes
-  plugins_errors_fatal: no
-          plugin_traffic: yes
+          ####################################
+          # Error Reporting
+          ####################################
+          plugin_errors: yes
+          plugins_errors_fatal: no
