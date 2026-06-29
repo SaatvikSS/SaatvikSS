@@ -1,11 +1,14 @@
-name: Metrics
+name: GitHub Metrics
 
 on:
+  # Refresh every 5 hours
   schedule:
-    - cron: "0 */12 * * *"
+    - cron: "0 */5 * * *"
 
+  # Manual refresh
   workflow_dispatch:
 
+  # Update when your profile repo changes
   push:
     branches:
       - main
@@ -31,11 +34,23 @@ jobs:
           filename: github-metrics.svg
 
           ####################################
-          # Apple-style Layout
+          # Layout
           ####################################
           template: classic
-          base: header, activity
 
+          base: header, activity, repositories, metadata, community
+          base_indepth: yes
+
+          ####################################
+          # Repository Discovery
+          ####################################
+          repositories_batch: 100
+          repositories_affiliations: owner, collaborator, organization_member
+          repositories_forks: yes
+
+          ####################################
+          # Display
+          ####################################
           config_display: large
           config_padding: 0
           config_timezone: Asia/Kolkata
@@ -48,37 +63,61 @@ jobs:
           plugin_introduction_title: no
 
           ####################################
-          # Isometric Calendar
-          ####################################
-          plugin_isocalendar: yes
-          plugin_isocalendar_duration: half-year
-
-          ####################################
           # Languages
           ####################################
           plugin_languages: yes
-          plugin_languages_limit: 6
+          plugin_languages_limit: 10
           plugin_languages_sections: most-used
           plugin_languages_indepth: yes
-          plugin_languages_analysis_timeout: 15
-          plugin_languages_recent_categories: programming
-          plugin_languages_recent_load: 200
-          plugin_languages_recent_days: 365
+          plugin_languages_analysis_timeout: 60
+          plugin_languages_analysis_timeout_repositories: 30
+          plugin_languages_recent_categories: programming, markup
+          plugin_languages_recent_load: 1000
+          plugin_languages_recent_days: 730
 
           ####################################
           # Lines Changed
           ####################################
           plugin_lines: yes
           plugin_lines_sections: base
+          plugin_lines_repositories_limit: 1000
+          plugin_lines_history_limit: 10
 
           ####################################
-          # Pull Requests & Contributions
+          # Pull Requests
           ####################################
           plugin_followup: yes
           plugin_followup_sections: repositories
           plugin_followup_indepth: yes
 
           ####################################
-          # Continue even if a plugin fails
+          # Contribution Calendar
+          ####################################
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
+
+          ####################################
+          # Featured Repositories
+          ####################################
+          plugin_repositories: yes
+          plugin_repositories_featured: >
+            SaatvikSS/Qryptics,
+            SaatvikSS/Tattva,
+            SaatvikSS/GreenRoute
+
+          ####################################
+          # Stars
+          ####################################
+          plugin_stars: yes
+          plugin_stars_limit: 4
+
+          ####################################
+          # Topics
+          ####################################
+          plugin_topics: yes
+          plugin_topics_limit: 20
+
+          ####################################
+          # Continue if a plugin fails
           ####################################
           plugins_errors_fatal: no
