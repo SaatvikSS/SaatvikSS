@@ -67,42 +67,6 @@ A beautifully crafted native iOS application delivering an immersive Bhagavad Gi
 
 ---
 
-## 🌱 GreenRoute
-
-AI-powered emissions monitoring platform helping logistics companies reduce their environmental footprint.
-
-**Stack**
-
-`Python`
-`Machine Learning`
-`Cloud`
-
----
-
-## 🥗 NutriScan
-
-Food intelligence platform using computer vision and machine learning to help users understand packaged food.
-
-**Stack**
-
-`Swift`
-`Vision`
-`CoreML`
-
----
-
-## 📊 AI Monitoring System
-
-Machine-learning powered observability platform for intelligent API monitoring and anomaly detection.
-
-**Stack**
-
-`FastAPI`
-`OpenTelemetry`
-`Scikit-learn`
-
----
-
 # Tech Stack
 
 ## Languages
